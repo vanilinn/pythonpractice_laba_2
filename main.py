@@ -1,0 +1,22 @@
+from polynomial import Polynomial
+
+print(Polynomial([4, 5, 6]))
+print(Polynomial({0: -7, 2: 2, 5: 1}))
+print(Polynomial(0))
+print(Polynomial(0, 3, 0, 7))
+print(repr(Polynomial(5, 6, 7, 0, 0, 0, 9, 0, 0)))
+print(repr(Polynomial(3, 4)))
+print(Polynomial(0, 3, 0, 7))
+print(Polynomial([9, -5, 0, 2]))
+print(Polynomial([9, -5, 0, -2]))
+print(Polynomial([2]))
+print(Polynomial(2))
+print(Polynomial({4: 70}))
+print(Polynomial(5, 6, 7) + Polynomial(5, 6, 7))
+print(Polynomial(5, 6, 7) * Polynomial(5, 6, 7, 8, 9, 10, 11, 12, 13))
+print(Polynomial(0) * Polynomial(0))
+print(Polynomial(4) * Polynomial(5, 6, 7))
+print(3 - Polynomial(5, 6, 7))
+print(-3 + Polynomial(5, 6, 7))
+print(Polynomial(0, 3, 0, 7) - Polynomial(0, 3, 0, 7))
+
